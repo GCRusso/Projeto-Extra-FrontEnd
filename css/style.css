@@ -1,0 +1,425 @@
+/* Reset margin */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* IMPORT FONTS */
+@font-face {
+    font-family: nemorosa;
+    src: url(../assets/fonts/nemorosa-extrabold.otf);
+}
+
+@font-face {
+    font-family: genera;
+    src: url(../assets/fonts/Genera-SemiBold.ttf);
+}
+
+
+
+/* Classes Genéricas */
+
+/* layout grid */
+.layout-grid {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* BOTÃO AMARELO */
+.botaoamarelo {
+    border-radius: 25px;
+    border: none;
+    background-color: #FCC500;
+    color: white;
+    font-size: 35px;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* PARAGRAFOS */
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(189, 186, 186);
+}
+
+/* AJUSTE TAMANHO DE IMAGENS */
+.tamanhoimages {
+    max-width: 100%;
+}
+
+
+
+
+
+/* ! ********** HEADER TOP ********** */
+/* Alinhamento */
+.alinhamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.alinhamento-h1 {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+
+/* Background Banner */
+#backgroundbanner {
+    width: 100%;
+    background-image: linear-gradient(to right top, rgba(198, 108, 215, 0.9), rgba(50, 36, 173, 1));
+    backdrop-filter: blur(15px);
+    z-index: 35;
+}
+
+
+/* Logotipo */
+header h1 {
+    font-family: nemorosa;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Input SEARCH */
+.inputplaceholder {
+    width: 460px;
+    height: 51px;
+    border-radius: 8px;
+    border: none;
+    bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+/* Placeholder */
+.inputplaceholder::placeholder {
+    color: rgb(187, 186, 186);
+    font-size: 17px;
+}
+
+
+/* links */
+header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+}
+
+/* Hover dos links */
+#linkshover:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+#hoverbutton:hover {
+    background-color: #C66CD7;
+    border: none;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.3s;
+
+}
+
+#linksheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 325px;
+    height: 51px;
+}
+
+#alinhamentoicons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 162px;
+    height: 51px;
+}
+
+.iconsheader {
+    display: flex;
+    padding: 10px;
+    border-radius: 100px;
+    border: 2px solid #C66CD7;
+}
+
+/* ! ********** HEADER BOTTOM BANNER ********** */
+
+#imgbanner {
+    width: 905px;
+    height: 625px;
+    margin-top: 100px;
+    z-index: -1;
+}
+
+
+/* Alinhamento das setas do banner */
+#setas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    height: 650px;
+}
+
+#setashover:hover {
+    background-color: #C66CD7;
+    border: none;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+header h2 {
+    font-family: genera;
+    font-size: 80px;
+    color: white;
+    margin: 25px 0px 25px 0px;
+}
+
+header h3 {
+    font-family: genera;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+/* ! ********** HEADER BOTTOM MENU ********** */
+
+#dimensionamento {
+    height: 291px;
+    width: 100%;
+    z-index: 1;
+    background-color: #FDF2FF;
+
+    display: flex;
+    align-items: center;
+}
+
+#iconsdiversos {
+    color: #C66CD7;
+    font-size: 80px;
+    margin: 15px;
+}
+
+.box {
+    width: 350px;
+}
+
+.flexdiversos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.headerh4 {
+    font-size: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+
+/* ! ********** MAIN **********  */
+
+
+/* todo ********** NATUS ERRO **********  */
+#dimensionamentoprodutos1 {
+    height: 770px;
+    width: 100%;
+}
+
+.img-box {
+    height: 50%;
+}
+
+
+#flextitulos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 150px 100px 150px;
+    text-align: center;
+}
+
+.alinhamentoboxgeral {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+main h3 {
+    font-family: genera;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+
+main h1 {
+    font-family: nemorosa;
+    font-size: 50px;
+    color: black
+}
+
+.pbold {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+.boxprodutos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    width: 220px;
+    height: 350px;
+}
+
+
+/* todo ********** DESERUNT **********  */
+
+.align-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap-reverse;
+    flex-wrap: wrap;
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* BOX 1 */
+.box-1 {
+    width: 380px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.backgroundbanner2 {
+    background-color: #FDF2FF;
+    width: 100%;
+    height: 770px;
+}
+
+
+.align-box1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.buttonshop {
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 10px 45px 10px 45px;
+    color: #C66CD7;
+    border-color: #C66CD7;
+    border: 1px solid;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttonshop:hover {
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+.title-box {
+    font-size: 25px;
+}
+
+.background-box-img {
+    background-image: url(../assets/images/iphone\ varias\ cores.png);
+}
+
+/* BOX 2 */
+.box-2-3 {
+    width: 370px;
+    height: 225px;
+}
+
+.background-box2-img {
+    background-image: url(../assets/images/Iphone-XS.png);
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.align-box2 {
+    padding: 20px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* BOX 3 */
+.background-box3-img {
+    background-image: url(../assets/images/smartwatch\ apple.png);
+}
+
+/* BOX 4 */
+.background-box4-img {
+    background-image: url(../assets/images/Notebook-apple.png);
+}
+
+.box-4 {
+    width: 770px;
+    height: 225px;
+}
+
+.align-box4 {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.align-button {
+    margin: 25px 0px 0px 20px;
+
+}
